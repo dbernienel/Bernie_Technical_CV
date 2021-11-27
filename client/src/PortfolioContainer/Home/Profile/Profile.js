@@ -9,22 +9,16 @@ export default function Profile() {
             <div className="profile-details">
               <div className="colz">
                 <div className="colz-icon">
-                  <a href="https://web.facebook.com/">
-                  <i class='fab fa-facebook-square'></i>
+                  <a href="https://www.facebook.com/berniegecko.nel/">
+                  <i class='fa fa-facebook-square'></i>
                   </a>
-                  <a href="https://www.instagram.com/">
-                    <i className="fa fa-google-plus-square" />
+                  <a href="https://www.linkedin.com/in/bernie-nel/">
+                    <i className="fa fa-linkedin-square" />
                   </a>
-                  <a href="https://www.instagram.com/">
+                  <a href="https://www.instagram.com/berniegecko/">
                     <i className="fa fa-instagram" />
                   </a>
-                  <a href="https://www.instagram.com/">
-                    <i className="fa fa-youtube-square" />
-                  </a>
-                  <a href="https://twitter.com/">
-                    <i className="fa fa-twitter" />
-                  </a>
-
+                  
                 </div>
                 </div>
 
