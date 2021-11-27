@@ -1,4 +1,5 @@
 import React from "react";
+import './Profile.css';
 
 
 export default function Profile() {
@@ -9,18 +10,18 @@ export default function Profile() {
               <div className="colz">
                 <div className="colz-icon">
                   <a href="https://web.facebook.com/">
-                    <i className="fa fa-facebook-square" />
+                  <i class='fab fa-facebook-square'></i>
                   </a>
-                  <a href="https://www.instagram.com/instructor_ehizeex/">
+                  <a href="https://www.instagram.com/">
                     <i className="fa fa-google-plus-square" />
                   </a>
-                  <a href="https://www.instagram.com/instructor_ehizeex/">
+                  <a href="https://www.instagram.com/">
                     <i className="fa fa-instagram" />
                   </a>
-                  <a href="https://www.instagram.com/instructor_ehizeex/">
+                  <a href="https://www.instagram.com/">
                     <i className="fa fa-youtube-square" />
                   </a>
-                  <a href="https://twitter.com/Ehiedu_baba">
+                  <a href="https://twitter.com/">
                     <i className="fa fa-twitter" />
                   </a>
 
