@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { TOTAL_SCREENS, GET_SCREEN_INDEX } from '../../../utilities/commonUtils'
 import ScrollService from '../../../utilities/ScrollService'
-import {faBars} from '@fortawesome/fontawesome-svg-icons'
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import{FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import './Header.css'
 
@@ -52,7 +52,7 @@ export default function Header() {
 
     return (
         <div>
-            <div className='header-option' onClick={() => setShowHeaderOptions(!showHeaderOptions)}>
+            <div className='header-container' onClick={() => setShowHeaderOptions(!showHeaderOptions)}>
                 <div className='header-parent'>
                     <div className='header-hamburger' onClick={() => setShowHeaderOptions(!showHeaderOptions)}>
                         <FontAwesomeIcon className='header-hamburger-bars' icon={faBars}/>

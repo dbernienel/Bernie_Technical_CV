@@ -1,5 +1,5 @@
 import {TOTAL_SCREENS} from "./commonUtils";
-import {Subject} from 'rxjx'
+import {Subject} from 'rxjs'
 
 
 export default class ScrollService{
@@ -10,7 +10,7 @@ export default class ScrollService{
 
 
     constructor(){
-        window.addEventListener('scroll'. this.checkCurrentScreenUnderViewport);
+        window.addEventListener('scroll', this.checkCurrentScreenUnderViewport);
     }
 
     scrollToHireMe = ()=>{
