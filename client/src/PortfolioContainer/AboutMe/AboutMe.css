@@ -55,8 +55,7 @@
     margin: 0 0 0 30px;
   }
   
-  /*IPAD PRO RESPONSIVENESS*/
-  @media only screen and (max-width: 1110px) {
+   @media only screen and (max-width: 1110px) {
     .about-me-parent {
       width: 88%;
     }
