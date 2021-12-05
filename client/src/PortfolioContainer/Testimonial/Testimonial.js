@@ -65,7 +65,7 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Christo section
+                      Bernie is a higly skilled individual and wrote a great inventory system for our company!
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -99,7 +99,7 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Danie section
+                      Bernie is a self-started, just tell him what you need, and he gets it done.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -132,7 +132,7 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Marie Section
+                      Bernie has a great eye for data analystics, I will have him on my team any time.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
