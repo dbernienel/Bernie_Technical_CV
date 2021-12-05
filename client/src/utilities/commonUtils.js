@@ -18,8 +18,8 @@ export const TOTAL_SCREENS = [
         component: Resume,
     },
     {
-        screen_name: "Resume",
-        component: Resume,
+        screen_name: "Testimonial",
+        component: Testimonial,
     },
 
 ]

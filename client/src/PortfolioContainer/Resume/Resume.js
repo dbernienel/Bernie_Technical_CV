@@ -47,7 +47,7 @@ const Resume = (props) => {
     { label: "Education", logoSrc: "education.svg" },
     { label: "Work History", logoSrc: "work-history.svg" },
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
-    { label: "Projects", logoSrc: "projects.svg" },
+    { label: "Certifications", logoSrc: "projects.svg" },
     { label: "Interests", logoSrc: "interests.svg" },
   ];
 
@@ -63,15 +63,29 @@ const Resume = (props) => {
     { skill: "CSS", ratingPercentage: 80 },
   ];
 
-  const projectsDetails = [
+  const certificationsDetails = [
     {
-      title: "A",
-      duration: { fromDate: "1", toDate: "2" },
+      title: "Certified Cryptocurrency Auditor (CCA)",
+     /* duration: { fromDate: "1", toDate: "2" },*/
       description:
-        "P1",
-      subHeading: "P2",
+        "Certified Cryptocurrency Auditor™ is an exclusively developed and curated certification focusing on the core concepts of auditing Blockchain-based Cryptocurrencies.",
+        credLink: ""
     },
-   
+    {
+        title: "AccessData Certified Examiner, Investigator, Technician (ACE, ACI, ACT)",
+       /* duration: { fromDate: "1", toDate: "2" },*/
+        description:
+          "This certifies users with the combined abilities of AccessData's Forensic Toolkit (FTK), FTK Imager, Registry Viewer, and Password Recovery Toolkit® (PRTK®) to locate and examine email messages, deleted files, free space and file slack.",
+        
+      }, 
+      {
+        title: "Open-Source Intelligence (OSINT) Fundamentels ",
+       /* duration: { fromDate: "1", toDate: "2" },*/
+        description:
+          "This course focuses on Open Source Intelligence (OSINT) tactics and techniques designed to help you improve your investigative game.",
+        subHeading: "P2",
+      },  
+
   ];
 
   const resumeDetails = [
@@ -171,16 +185,17 @@ const Resume = (props) => {
       ))}
     </div>,
 
-    /* PROJECTS */
-    <div className="resume-screen-container" key="projects">
-      {projectsDetails.map((projectsDetails, index) => (
+    /* Certifications */
+    <div className="resume-screen-container" key="certifications">
+      {certificationsDetails.map((certificationsDetails, index) => (
         <ResumeHeading
           key={index}
-          heading={projectsDetails.title}
-          subHeading={projectsDetails.subHeading}
-          description={projectsDetails.description}
-          fromDate={projectsDetails.duration.fromDate}
-          toDate={projectsDetails.duration.toDate}
+          heading={certificationsDetails.title}
+          description={certificationsDetails.description}
+          credLink ={certificationsDetails.credLink}
+         /* description={certificationsDetails.description}
+          fromDate={certificationsDetails.duration.fromDate}
+          toDate={certificationsDetails.duration.toDate}*/
         />
       ))}
     </div>,
