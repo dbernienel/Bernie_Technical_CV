@@ -1,12 +1,13 @@
-export default class Animations{
+export default class Animations {
+    /* SINGLETON CLASS INSTANCE */
     static animations = new Animations();
-
-    FadeInScreen = (scren_name)=>{
-        let screen = document.getElementById(scren_name);
-        if (!scren_name || !screen)
-        return
-
-        screen.style.opacity = "5";
-        screen.style.transform = "translateY(1px)";
-    }
-}
+  
+    fadeInScreen = (screen_name) => {
+      let screen = document.getElementById(screen_name);
+      if (!screen_name || !screen) return;
+  
+      screen.style.opacity = "5";
+      screen.style.transform = "translateY(1px)";
+    };
+  }
+  

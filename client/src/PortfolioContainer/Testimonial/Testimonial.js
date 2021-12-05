@@ -22,6 +22,8 @@ export default function Testimonial(props) {
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
+  
+
   const options = {
     loop: true,
     margin: 0,
@@ -50,7 +52,7 @@ export default function Testimonial(props) {
         title={"References"}
         subHeading={"What my references say about me"}
       />
-      <section className="testimonial-section" id={props.id || ""}>
+      <section className="testimonial-section fade-in" id={props.id || ""}>
         <div className="container">
           <div className="row">
             <OwlCarousel
