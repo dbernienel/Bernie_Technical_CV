@@ -20,7 +20,7 @@ export default class ScrollService{
     }
 
     scrollToHome = ()=>{
-        let homeScreen = document.getElementById("Hom")
+        let homeScreen = document.getElementById("Home")
         if (!homeScreen) return;
         homeScreen.scrollIntoView({behavior: "smooth"})
     }
