@@ -23,7 +23,7 @@ export default function AboutMe(props) {
         ,
         highlights: {
             bullets:[
-                "Perfor digital evidence acquisitions from electronic devices, including mobile devices.", 
+                "Perform digital evidence acquisitions from electronic devices, including mobile devices.", 
                 "Perform open-source intelligence (OSINT) due diligence searches on individuals and companies",
                 "Conducting investigations and analysing data using digital forensics tools",
                 "Comply with forensically sound procedures while handling digital evidence",   
