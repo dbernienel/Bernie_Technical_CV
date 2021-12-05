@@ -99,13 +99,13 @@ const Resume = (props) => {
 
       <ResumeHeading
         heading={"North West University, Potchefstroom, South Africa"}
-        subHeading={"Honors of Commerse Forensic Accounting"}
+        subHeading={"Honors of Commerce Forensic Accounting"}
         fromDate={"2019"}
         toDate={"2019"}
       />
       <ResumeHeading
         heading={"North West University, Potchefstroom, South Africa"}
-        subHeading={"Bachelor of Commerse Forensic Accounting"}
+        subHeading={"Bachelor of Commerce Forensic Accounting"}
         fromDate={"2016"}
         toDate={"2018"}
       />
@@ -115,6 +115,9 @@ const Resume = (props) => {
     /* WORK EXPERIENCE */
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
+
+
+
         <ResumeHeading
           heading={"Cyanre The Digital Forensic Lab"}
           subHeading={"Digital Forensic Practitioner"}
@@ -124,14 +127,12 @@ const Resume = (props) => {
         
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working ...
+          - Performing digital evidence acquisitions from electronic devices, including mobile devices.
+          <br />
+          - Conducting investigations and analysing data using digital forensics tools.
           </span>
         </div>
-        <div className="experience-description">
-          <span className="resume-description-text">
-            - F1.
-          </span>
-          <br />
+
           <br />
 
           <ResumeHeading
@@ -142,7 +143,7 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working ...
+            - This position mainly focused on lifestyle audits, profiling and tracing of individuals.
           </span>
           <br />
           <br />
@@ -153,20 +154,19 @@ const Resume = (props) => {
           subHeading={"Junior Forensic Assistant"}
           fromDate={"Jan 2020 "}
           toDate={" Aug 2020"}
+          
         />
-
-        <div className="experience-description">
+            <div className="experience-description">
           <span className="resume-description-text">
-            Currently working ...
+            - This position focused on financial investigations of offences disputes and allegations    
           </span>
-          <br />
-        </div>
+
 
         </div>
       </div>
     </div>,
 
-    /* PROGRAMMING SKILLS */
+    /* programming skills */
     <div
       className="resume-screen-container programming-skills-container"
       key="programming-skills"
@@ -208,11 +208,11 @@ const Resume = (props) => {
       />
       <ResumeHeading
         heading="Cooking"
-        description="I like cooking because"
+        description="I like cooking because it gives me the ability to be creative, and the sense of satisfaction knowing I can prepare amazing dishes for my family and friends."
       />
       <ResumeHeading
         heading="Fishing"
-        description="I like "
+        description="Fishing gives me the opportunity to form special bonds with family and friends, accompanied with the thrill and mission when the ratchet runs wild "
       />
     </div>,
   ];

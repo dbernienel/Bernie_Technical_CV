@@ -7,10 +7,10 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
-import marie from "../../../src/img/Testimonial/marie.png";
-import kobus from "../../../src/img/Testimonial/kobus.png";
-import danie from "../../../src/img/Testimonial/danie.png";
-import christo from "../../../src/img/Testimonial/christo.png";
+import marie from "../../../src/img/Testimonial/marie.jpg";
+import kobus from "../../../src/img/Testimonial/kobus.jpg";
+import danie from "../../../src/img/Testimonial/danie.jpg";
+import christo from "../../../src/img/Testimonial/christo.jpg";
 import shape from "../../../src/img/Testimonial/shape-bg.png";
 
 export default function Testimonial(props) {
@@ -165,7 +165,7 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Kobus Oberholzer
+                      Bernie is a dedicated and resourceful partner in projects who is not afraid to have his opinion challenged towards the progress of a goal.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -189,7 +189,7 @@ export default function Testimonial(props) {
                   <div className="client-info">
                     <img src={kobus} alt="no internet connection"></img>
                     <h5>Kobus Oberholzer</h5>
-                    <p>Technical Supervisor</p>
+                    <p>Independent Media Producer</p>
                   </div>
                 </div>
               </div>
